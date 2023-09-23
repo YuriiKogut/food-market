@@ -1,0 +1,434 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+section, header, footer {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+
+.header {
+    box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+    display: flex;
+}
+
+.header-logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.nav {
+
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav-item {
+
+}
+
+.btn-order {
+    display: none;
+}
+
+/* MOBILE MENU */
+
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 186px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.btn-active {
+
+}
+
+.menu-btn span {
+    transition: all 0.3s ease;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #7EB101;
+}
+
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% - 10px);
+}
+
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% + 10px);
+}
+
+.menu-btn.btn-active span:nth-of-type(1) {
+    display: none;
+}
+
+.menu-btn.btn-active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.menu-btn.btn-active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+.mob-menu {
+    
+}
+
+.mob-menu-ul {
+    overflow: hidden;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 130px;
+    transition: all 0.3s ease;
+    background-color: whitesmoke;
+    position: absolute;
+    transform-origin: top;
+    top: 20px;
+    right: 0;
+    transform: scaleY(0.5);
+    opacity: 0;
+}
+
+.menu-active {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.mob-menu-li {
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+.mob-menu-li:active {
+    background-color: yellowgreen;
+}
+
+.mob-menu-item {
+    color: black;
+    text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+
+}
+
+.hero-about {
+
+}
+
+.hero-about-title {
+
+}
+
+.hero-about-paragraph {
+
+}
+
+.hero-dish {
+    display: none;
+
+}
+
+.hero-btn-left {
+
+}
+
+.hero-icon-left {
+
+}
+
+.hero-btn-right {
+
+}
+
+.hero-icon-right {
+
+}
+
+.foods {
+
+}
+
+.food-img {
+    width: 222px;
+    height: 222px;
+}
+
+/* OFFERINGS */
+
+.offering {
+
+}
+
+.offering-main-icon {
+
+}
+
+.offering-main-img {
+
+}
+
+.offering-main-content {
+
+}
+
+.offering-main-title {
+
+}
+
+.offering-main-paragraph {
+
+}
+
+.offering-second-content {
+
+}
+
+.offering-second-one {
+
+}
+
+.offering-second-one-icon {
+
+}
+
+.offering-second-title {
+
+}
+
+.offering-second-paragraph {
+
+}
+
+.offering-second-two {
+
+}
+
+.offering-second-two-icon {
+
+}
+
+.offering-button {
+
+}
+
+.offering-btn-order {
+
+}
+
+.offering-link {
+
+}
+
+/* FAVORITES */
+
+.favorite {
+
+}
+
+.favorite-title {
+
+}
+
+.favorite-paragraph {
+
+}
+
+.favorite-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.favorite-img {
+    width: 280px;
+    height: 280px;
+
+}
+
+.favorite-img-none {
+    display: none;
+}
+
+/* CUSTOMERS */
+
+.customers {
+
+}
+
+.customers-title {
+
+}
+
+.customers-paragraph {
+
+}
+
+.customers-review-one {
+
+}
+
+.customers-review-one-stars {
+
+}
+
+.customers-review-one-paragraph {
+
+}
+
+.customers-review-one-person {
+
+}
+
+.customers-review-one-img {
+
+}
+
+.customers-review-one-name {
+
+}
+
+.customers-review-one-span {
+
+}
+
+.customers-review-two {
+
+}
+
+.customers-review-two-stars {
+
+}
+
+.customers-review-two-paragraph {
+
+}
+
+.customers-review-two-person {
+
+}
+
+.customers-review-two-img {
+
+}
+
+.customers-review-two-name {
+
+}
+
+.customers-review-two-span {
+
+}
+
+.customers-banana {
+
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+
+}
+
+.subscribe-title {
+
+}
+
+.subscribe-paragraph {
+
+}
+
+.subscribe-form {
+
+}
+
+.subscribe-input {
+
+}
+
+.subscribe-btn {
+
+}
+
+/* FOOTER */
+
+.footer {
+
+}
+
+.footer-sect-one {
+
+}
+
+.footer-logo {
+
+}
+
+.footer-logo-icon {
+
+}
+
+.footer-nav {
+
+}
+
+.footer-nav-item {
+
+}
+
+.footer-sect-two {
+
+}
+
+.footer-paragraph {
+
+}
+
+.footer-form {
+
+}
+
+.footer-input {
+
+}
+
+.footer-btn {
+
+}
+
+.footer-policy {
+
+}
+
+.footer-policy-item {
+
+}
+
+.footer-desc {
+
+}
