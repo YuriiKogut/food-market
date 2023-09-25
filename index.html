@@ -11,7 +11,7 @@
 </head>
 <body>
     <!--HEADER-->
-    <header class="header container">
+    <header class="header">
         <svg class="header-logo" width="66px" height="52px">
             <use href="./images/icons.svg#icon-logo"></use>
         </svg>
@@ -47,13 +47,13 @@
             <button class="hero-btn-order" data-modal-open>Order Now</button>
         </div>
         <div class="hero-dish">
-            <button class="hero-btn-left" onclick="plusSlide(-1)">&#10094</button>
-            <button class="hero-btn-right" onclick="plusSlide(1)">&#10095</button>
             <div class="foods">
                 <div class="mySlides" ><img class="food-img" src="./images/food1.png" alt=""></div>
                 <div class="mySlides" ><img class="food-img" src="./images/food2.png" alt=""></div>
                 <div class="mySlides" ><img class="food-img" src="./images/food3.png" alt=""></div>
             </div>
+            <button class="hero-btn-left" onclick="plusSlide(-1)">&#10094</button>
+            <button class="hero-btn-right" onclick="plusSlide(1)">&#10095</button>
         </div>
     </section>
     <!-- Offerings -->
@@ -89,10 +89,10 @@
                 <p class="offering-second-paragraph">You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in
                 just a few clicks.</p>
             </div>
+            </div>
             <div class="offering-button">
             <button class="offering-btn-order" >Order Now</button>
             <a class="offering-link" href="#">Read More</a>
-            </div>
             </div>
         </div>
     </section>
@@ -116,35 +116,37 @@
         <img class="customers-main-img-mobile" src="./images/mobile-down.png" alt="">
         <h2 class="customers-title">What our Customers Say</h2>
         <p class="customers-paragraph">Don't just take our word for it - see what our satisfied customers have to say</p>
-        <div class="customers-review-one">
-            <svg class="customers-review-stars" width="101" height="16">
-                <use href="./images/icons.svg#icon-stars"></use>
-            </svg>
-            <p class="customers-review-paragraph">“The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind,
-            No questions asked”</p>
-            <div class="customers-review-person">
-                <div class="customers-review-person-img">
-                <img class="customers-review-img" src="./images/men.png" alt="">
-                </div>
-                <div class="customers-review-person-title">
-                <p class="customers-review-name">Sumith Shah</p>
-                <span class="customers-review-span">Some Dude</span>
-                </div>
-            </div>
-        </div>
-        <div class="customers-review-two">
-            <svg class="customers-review-stars" width="101" height="16">
-                <use href="./images/icons.svg#icon-stars"></use>
-            </svg>
-            <p class="customers-review-paragraph">“The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering
-            from this app”</p>
-            <div class="customers-review-person">
-                <div class="customers-review-person-img">
-                <img class="customers-review-img" src="./images/girl.png" alt="">
-                </div>
-                <div class="customers-review-person-title">
+        <div class="customers-review">
+            <div class="customers-review-one">
+                <svg class="customers-review-stars" width="101" height="16">
+                    <use href="./images/icons.svg#icon-stars"></use>
+                </svg>
+                <p class="customers-review-paragraph">“The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind,
+                No questions asked”</p>
+                <div class="customers-review-person">
+                    <div class="customers-review-person-img">
+                    <img class="customers-review-img" src="./images/men.png" alt="">
+                    </div>
+                    <div class="customers-review-person-title">
                     <p class="customers-review-name">Sumith Shah</p>
                     <span class="customers-review-span">Some Dude</span>
+                    </div>
+                </div>
+            </div>
+            <div class="customers-review-two">
+                <svg class="customers-review-stars" width="101" height="16">
+                    <use href="./images/icons.svg#icon-stars"></use>
+                </svg>
+                <p class="customers-review-paragraph">“The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering
+                from this app”</p>
+                <div class="customers-review-person">
+                    <div class="customers-review-person-img">
+                    <img class="customers-review-img" src="./images/girl.png" alt="">
+                    </div>
+                    <div class="customers-review-person-title">
+                        <p class="customers-review-name">Sumith Shah</p>
+                        <span class="customers-review-span">Some Dude</span>
+                    </div>
                 </div>
             </div>
         </div>
